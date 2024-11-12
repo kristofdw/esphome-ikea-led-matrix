@@ -8,8 +8,7 @@
 namespace esphome {
 namespace obegraensadpanel {
 
-class Panel,
-                public display::DisplayBuffer {
+class Panel : public display::DisplayBuffer {
  public:
   int p_latch;
   int p_clock;
