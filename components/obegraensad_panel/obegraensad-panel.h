@@ -1,6 +1,6 @@
 #pragma once
 
-///#include "esphome/core/component.h"
+#include "esphome/core/component.h"
 #include "esphome/components/display/display_buffer.h"
 #include "obegraensad-driver.h"
 
@@ -8,7 +8,7 @@
 namespace esphome {
 namespace obegraensadpanel {
 
-class Panel : public PollingComponent,
+class Panel,
                 public display::DisplayBuffer {
  public:
   int p_latch;
